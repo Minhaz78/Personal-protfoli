@@ -236,12 +236,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 325px 325px px 0;
+  margin: 18px 180px 0 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
 }
+
 
 #hero p {
   color: #fff;
@@ -281,14 +282,19 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  background-color:silver;
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background:dimgray;
 }
 
 .section-title {
   padding-bottom: 30px;
+  background-color: lightblue;
+  padding:20px;
+  border-radius: 20px;
+  margin-bottom: 5px;
 }
 
 .section-title h2 {
@@ -299,7 +305,6 @@ section {
   position: relative;
   color: #173b6c;
 }
-
 .section-title h2::after {
   content: '';
   position: absolute;
@@ -310,6 +315,26 @@ section {
   bottom: 0;
   left: 0;
 }
+.section-title h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #173b6c;
+}
+.section-title h1::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+
+
 
 .section-title p {
   margin-bottom: 0;
@@ -402,7 +427,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -418,7 +443,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #eff3fa;
 }
 
 .skills .progress .skill .val {
@@ -729,8 +754,8 @@ section {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
+  width: 450px;
+  border-radius: 5px;
   margin: 0 auto;
 }
 
@@ -814,7 +839,7 @@ section {
 
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background:dimgray;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
@@ -825,7 +850,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background:silver;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -884,7 +909,7 @@ section {
 .contact .php-email-form {
   width: 100%;
   padding: 30px;
-  background: #fff;
+  background: dimgray;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -902,7 +927,7 @@ section {
 
 .contact .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color:floralwhite;
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
